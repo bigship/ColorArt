@@ -528,7 +528,7 @@ withBackgroundColor:(NSColor *)backgroundColor
         if (index >= tempTextColors.count) {
             if (index > 0) {
                 NSColor *previousColor = tempTextColors[index - 1];
-                tempTextColors[index] = [previousColor colorWithAlphaComponent:fmax(previousColor.alphaComponent - 0.25f, 0.4f)];
+                tempTextColors[index] = [previousColor colorWithAlphaComponent:fmax(previousColor.alphaComponent - 0.4f, 0.4f)];
             } else {
                 tempTextColors[index] = backgroundColor.pc_isDarkColor ? NSColor.whiteColor : NSColor.blackColor;
             }
