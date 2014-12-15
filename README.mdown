@@ -1,3 +1,5 @@
+This is a fork of [Panic's ColorArt](https://github.com/panicinc/ColorArt) project adopted for [Nimblify 2.0](http://nimblifyapp.com). A lot of stuff was rewritten to optimize performance. 
+
 So, what's the story?
 ===
 
